@@ -13,7 +13,7 @@
     />
 
     <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <link rel="stylesheet" href="./test.css" />
 
     <!-- Favicon for Logo -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
@@ -31,43 +31,78 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="main-container" class="container-fluid">
+      <!-- ============================================ -->
+      <!-- NAVIGATION -->
+      <!-- ============================================ -->
+      <div class="row">
+        <section id="navigation">
+          <div class="container">
+            <nav
+              id="navigation-container"
+              class="navbar navbar-expand-lg navbar-dark fixed-top"
+            >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a href="" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Recommendations</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Education</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Certifications</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Projects</a>
-            </li>
-          </ul>
+              <!-- Nav Items -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="main-menu" class="navbar-nav nav-fill w-100">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recommendations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Certifications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </section>
+      </div>
+
+      <!-- ============================================ -->
+      <!-- WELCOME -->
+      <!-- ============================================ -->
+      <section id="welcome">
+        <div class="container">
+          <div class="row justify-content-center">
+            <img
+              id="profile-image"
+              src="./images/profilepic.jpeg"
+              alt="Brandon Cardenas"
+            />
+          </div>
+          <div class="row justify-content-center mt-3">
+            <h1>Brandon Cardenas</h1>
+          </div>
         </div>
-      </nav>
+      </section>
+      <!-- ============================================ -->
+      <!-- RECOMMENDATIONS -->
+      <!-- ============================================ -->
+      <section id="recommendations"></section>
     </div>
 
     <!-- JS for Bootstrap -->
