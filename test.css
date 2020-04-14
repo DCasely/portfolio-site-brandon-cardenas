@@ -20,6 +20,20 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
 /* ===================== */
 /* NAVIGATION */
 /* ===================== */
@@ -49,6 +63,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 #profile-image {
@@ -56,9 +71,18 @@ h1 {
   width: 250px;
 }
 
-#welcome h1 {
+#welcome h1,
+#welcome h2 {
+  text-align: center;
   opacity: 0.75;
-  color: #fff;
+}
+
+#social-media-icons a {
+  margin: 0 5%;
+}
+
+#social-media-icons a:hover {
+  transform: scale(1.5);
 }
 
 /* ===================== */
