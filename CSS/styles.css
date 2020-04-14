@@ -1,0 +1,541 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+  font-weight: 600;
+}
+
+p,
+li {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* =============================================== */
+/* NAVBAR */
+/* =============================================== */
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+#navbar {
+  width: 75rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navbar a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.75;
+  letter-spacing: 0.25rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+/* =============================================== */
+/* WELCOME/HOME SECTION */
+/* =============================================== */
+
+#welcome-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/graphscharts.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 15rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0.25rem 3rem rgba(255, 60, 0, 0.19);
+  opacity: 0.9;
+}
+
+#profile-pic:hover {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0.25rem 3rem rgba(0, 17, 255, 0.19);
+}
+
+#welcome-section h1 {
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+
+#welcome-section h2 {
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+  max-width: 90%;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+  margin: 1rem 0 0 0;
+}
+
+.social-media-icons a {
+  color: #fff;
+}
+
+.social-media-icons a:hover {
+  transform: scale(2);
+}
+
+/* =============================================== */
+/* RECOMMENDATION SECTION */
+/* =============================================== */
+
+#recommendation-container {
+  color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#recommendations {
+  max-width: 100rem;
+  width: 50%;
+  margin: 5rem 0;
+}
+
+#recommendations a {
+  text-decoration: none;
+  color: #000;
+}
+
+.recommendation-imgs {
+  border-radius: 50%;
+}
+
+.recommendation-imgs:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #0077b5;
+}
+
+.individual-recommendation-divs {
+  margin: 5rem 0;
+}
+
+.individual-recommendation-divs h2:hover {
+  color: #0077b5;
+}
+
+.individual-recommendation-divs p {
+  font-style: italic;
+  font-weight: 200;
+}
+
+/* =============================================== */
+/* EDUCATION SECTION */
+/* =============================================== */
+
+.education-container {
+  background: #000;
+  background: linear-gradient(rgba(5, 0, 24, 0.9), rgb(0, 0, 0));
+  width: 100vw;
+}
+
+#education {
+  margin: auto;
+  height: 50rem;
+  max-width: 100rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000;
+}
+
+#education h2 {
+  margin: 2.5rem 0 0 0;
+}
+#education h3 {
+  margin: 1rem 0;
+}
+#education h4 {
+  margin: 0;
+}
+
+#education p {
+  margin: 0;
+}
+
+.mit,
+.freecodecamp,
+.abrahamuniversity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.3%;
+  height: 100%;
+  color: #fff;
+}
+
+.freecodecamp {
+  color: #fff;
+}
+
+.mit img,
+.freecodecamp img,
+.abrahamuniversity img {
+  width: 10rem;
+  height: 7.5rem;
+  margin: 0 0 0 0.25rem;
+  padding: 1rem;
+}
+.mit img:hover,
+.freecodecamp img:hover,
+.abrahamuniversity img:hover {
+  transform: scale(1.125);
+}
+
+.abrahamuniversity img {
+  box-shadow: 0 0 0.5rem rgb(0, 17, 255);
+}
+.freecodecamp img {
+  box-shadow: 0 0 0.5rem rgb(0, 170, 37);
+}
+.mit img {
+  box-shadow: 0 0 0.5rem rgb(255, 0, 0);
+}
+
+/* =============================================== */
+/* CERTIFICATION SECTION */
+/* =============================================== */
+
+.certification-container {
+  display: flex;
+  background: rgb(224, 224, 224);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem 0;
+}
+
+.certification-row {
+  display: flex;
+  max-width: 100rem;
+}
+
+.certification-tiles {
+  margin: 0 5rem;
+  box-shadow: 0 0 0.25rem rgb(0, 0, 0);
+}
+
+.certification-tiles:hover {
+  box-shadow: 0 0 2.5rem rgb(0, 0, 0);
+  z-index: 100;
+}
+
+.certification-row:first-of-type {
+  margin: 5rem 0;
+}
+
+.certification-row:last-of-type {
+  margin: 0 0 5rem 0;
+}
+
+.certification-row a {
+  text-decoration: none;
+  color: white;
+}
+
+.certification-tiles a {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#codewars {
+  background-color: #800000;
+}
+
+#hackerrank {
+  background-color: #006800;
+}
+
+#datacamp {
+  background-color: #002088;
+}
+
+#codecademy {
+  background-color: #474747;
+}
+
+.certification-container img {
+  height: 85%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(12, 4, 88, 0.25));
+}
+
+.certification-container h2 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-top: 0.01rem #fff solid;
+  font-size: 1rem;
+}
+
+/* =============================================== */
+/* EXPERIENCE SECTION */
+/* =============================================== */
+
+#experience-container {
+  background-color: #fbfbfd;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.experience {
+  height: 100%;
+  max-width: 100vw;
+}
+
+#thecaselygroup .company,
+#thecaselygroup .summary {
+  background: #fff;
+}
+
+.work-row-white-container {
+  width: 100vw;
+  background: #fff;
+}
+
+.work-row-black-container {
+  width: 100vw;
+  background: #000;
+}
+
+.work-row {
+  max-width: 100rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  width: 100%;
+}
+
+.company {
+  padding: 0 0 0 2.5rem;
+  width: 20%;
+  height: 25rem;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.company h2,
+.company h3 {
+  padding-bottom: 1rem;
+}
+
+.company img {
+  display: block;
+  background-color: white;
+  box-shadow: 0 0 0.25rem #000000;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 2.5rem 0;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.company h2,
+.company h3,
+.company p {
+  margin: 0;
+}
+
+#thecaselygroup .summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+#thecaselygroup .summary div {
+  width: 45%;
+}
+
+#infinitysalesgroup .summary div {
+  width: 75%;
+}
+
+#pointguardtraining .summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dominospizza .summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#infinitysalesgroup .summary p {
+  margin: 1rem 2.5rem;
+}
+
+#infinitysalesgroup,
+#dominospizza {
+  background-color: black;
+  color: white;
+}
+
+.summary {
+  width: 50%;
+  height: 25rem;
+  display: flex;
+  align-items: end;
+  padding: 2.5rem 0 0 0;
+}
+
+.summary li {
+  font-style: italic;
+  padding-top: 0.25rem;
+  font-weight: 400;
+}
+
+.summary p {
+  font-weight: 400;
+}
+
+.videos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.videos iframe {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  max-width: 35rem;
+  box-shadow: 0 0 0.5rem 0.5rem #888888;
+}
+
+#million-dollar-img {
+  margin: 1rem 0 0 0;
+  display: block;
+  width: 100%;
+  max-width: 25rem;
+  box-shadow: 0 0 0.5rem 0.5rem #888888;
+}
+
+/* =============================================== */
+/* PROJECTS SECTION
+/* =============================================== */
+
+#projects {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+
+#projects-row-1 {
+  margin: 2.5rem 0;
+  max-width: 100rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-tile {
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0);
+  width: 20rem;
+  height: 20rem;
+}
+
+.project-tile:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
+}
+
+.project-imgs {
+  width: 100%;
+  height: 75%;
+}
+
+.project-tile h2 {
+  height: 25%;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(38, 134, 0);
+  color: #fff;
+  /* border: 0.1rem solid #000; */
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: #000;
+}
