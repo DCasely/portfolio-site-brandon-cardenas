@@ -35,52 +35,50 @@
       <!-- ============================================ -->
       <!-- NAVIGATION -->
       <!-- ============================================ -->
-      <div class="row">
-        <section id="navigation">
-          <div class="container">
-            <nav
-              id="navigation-container"
-              class="navbar navbar-expand-lg navbar-dark fixed-top"
+      <section id="navigation">
+        <div class="container">
+          <nav
+            id="navigation-container"
+            class="navbar navbar-expand-lg navbar-dark fixed-top"
+          >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-              <!-- Nav Items -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="main-menu" class="navbar-nav nav-fill w-100">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Recommendations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </section>
-      </div>
+            <!-- Nav Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="main-menu" class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recommendations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Certifications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
 
       <!-- ============================================ -->
       <!-- WELCOME -->
@@ -118,7 +116,48 @@
       <!-- ============================================ -->
       <!-- RECOMMENDATIONS -->
       <!-- ============================================ -->
-      <section id="recommendations"></section>
+      <section id="recommendations">
+        <div class="container">
+          <!-- Slideshow/Carousel -->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <!-- Slide Contents -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/profilepic.jpeg" alt="" />
+                <h2><i class="fab fa-linkedin-in fa-2x"></i> SLIDE 1</h2>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- JS for Bootstrap -->
