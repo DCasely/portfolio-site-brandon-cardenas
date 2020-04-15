@@ -222,9 +222,51 @@ FIU COLORS
 /* EXPERIENCE */
 /* ===================== */
 
+/* 
+Assurant Colors:
+#f9a61a
+#0070b8
+#00b034
+#797979
+
+Zimmer Biomet Colors:
+#009fdf
+#333333
+
+Aon Colors:
+#f0f0f0
+#e11b22
+*/
+
 #experience {
-  height: 100vh;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#assurant-box {
+  background-color: #f9a61a;
+}
+
+#experience h2 {
+  margin: 5% 0;
+}
+
+#experience img {
+  border-radius: 50%;
+}
+
+#zimmer-box {
+  background-color: #009fdf;
+}
+
+#aon-box {
+  background-color: hsla(358, 79%, 49%, 0.75);
+}
+
+#heartware-box {
+  background-color: #f0f0f0;
 }
 
 /* ===================== */
