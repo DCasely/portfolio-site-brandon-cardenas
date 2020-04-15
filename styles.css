@@ -68,6 +68,7 @@ a:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./images/graphscharts.jpeg);
   background-size: cover;
+  background-position: right;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,3 +193,12 @@ FIU COLORS
 #certifications {
   height: 100vh;
 }
+
+/* ===================== */
+/* MEDIA QUERY */
+/* ===================== */
+
+/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/graphscharts.jpeg); */
+
+/* @media only screen and (max-width: 600px) */
