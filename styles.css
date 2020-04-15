@@ -26,12 +26,17 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 1.25rem;
+}
+
 a {
   color: #fff;
 }
 
 a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 /* ===================== */
@@ -114,6 +119,10 @@ a:hover {
   color: #000;
 }
 
+#slide-content a:hover {
+  color: #959595;
+}
+
 #slide-content h2 {
   font-size: 1.5rem;
 }
@@ -159,7 +168,27 @@ a:hover {
 /* EDUCATIONS */
 /* ===================== */
 
+/* 
+FIU COLORS
+#B6862C
+#081E3F
+*/
+
 #education {
+  background-color: #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#education h2 {
+  color: #081e3f;
+}
+
+/* ===================== */
+/* CERTIFICATIONS */
+/* ===================== */
+
+#certifications {
   height: 100vh;
-  background-color: #000;
 }
