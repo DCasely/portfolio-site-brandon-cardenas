@@ -191,8 +191,30 @@ FIU COLORS
 /* CERTIFICATIONS */
 /* ===================== */
 
-#certifications {
+#certifications img {
+  width: 20rem;
+  margin-bottom: 2.5rem;
+}
+
+#certifications hr {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* ===================== */
+/* EXPERIENCE */
+/* ===================== */
+
+#experience {
   height: 100vh;
+  background-color: black;
 }
 
 /* ===================== */
