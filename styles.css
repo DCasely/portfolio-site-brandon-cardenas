@@ -94,7 +94,6 @@ a:hover {
 /* ===================== */
 
 #recommendations {
-  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +120,7 @@ a:hover {
 }
 
 #slide-content p {
-  padding: 0 10rem;
+  padding: 0 15%;
   margin-bottom: 5rem;
   font-style: italic;
   color: #959595;
