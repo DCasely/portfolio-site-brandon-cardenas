@@ -62,11 +62,17 @@ a:hover {
 }
 
 #main-menu .nav-link {
-  color: #959595;
+  color: #fff;
 }
 
 #main-menu .nav-link:hover {
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+#main-menu .current {
+  background-color: #fff;
+  color: #000;
 }
 
 /* ===================== */
